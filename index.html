@@ -1,22 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>Hello, World!</h1>
-    <p>Day 1 CodeWorks</p>
-    <ul>
-        <li><strong>GIT:</strong><br> A source control tool for versioning and storing projects or repositories.</li>
-        <li><strong>Node:</strong><br> A javascript environment for working with projects.</li>
-        <li><strong>npm:</strong><br> A package manager for the Node environment that allows you to find, install, and utilize different tools.</li>
-        <li><strong>http-server:</strong><br> A server emulation tool within Node.</li>
-        <li><strong>VSCode:</strong><br> Software that allows you to edit and write code within a project.</li>
-        <li><strong>Setup Source Directory:</strong><br> A set area to store projects locally for easy indexing and workflow.</li>
 
-    </ul>
+<body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#"><img src="https://ootblues.github.io/images/logowht.png" alt="" width="50px" height="30px"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="https://github.com/ootblues">Github <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Discord</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Facebook</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#"><img src="https://ootblues.github.io/images/logowht.png" alt="" width="50px" height="30px"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="https://github.com/ootblues">Github <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Discord</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Facebook</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div class="landing-main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 cold-md-12">
+                    <h1 style="color:aqua">Out of The Blue Studios</h1>
+                    <h3 style="color:#4dd2ff">We're Hiring!</h3>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+                <div class="col-xs-12 cold-md-12">
+                    <h1 style="color:aqua">Out of The Blue Studios</h1>
+                    <h3 style="color:#4dd2ff">We're Hiring!</h3>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+                <div class="col-xs-12 cold-md-12">
+                    <h1 style="color:aqua">Out of The Blue Studios</h1>
+                    <h3 style="color:#4dd2ff">We're Hiring!</h3>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+                <div class="col-xs-12 cold-md-12">
+                    <h1 style="color:aqua">Out of The Blue Studios</h1>
+                    <h3 style="color:#4dd2ff">We're Hiring!</h3>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div><div class="col-xs-12 cold-md-12">
+                    <h1 style="color:aqua">Out of The Blue Studios</h1>
+                    <h3 style="color:#4dd2ff">We're Hiring!</h3>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <p class="landing-description">Most of our games are developed within the Unity 3D Engine. Regardless of wether you are a gamer, a game
+                        developer, or an investor, Out of The Blue Studios strive to have the best tools and systems to make
+                        life easier. We are dedicated to creating opportunities for Indie developers seeking to turn their
+                        hobby into a career path.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>

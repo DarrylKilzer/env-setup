@@ -1,0 +1,15 @@
+body{
+    background: black;
+    background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/04/Free-download-Ocean-backgrounds.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.landing-main{
+    padding: 10%;
+    text-shadow: 3px 3px 3px black;
+}
+.landing-description{
+    padding: 10%;
+    color: #4dd2ff;
+    text-shadow: 3px 3px 3px black;
+}
